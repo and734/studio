@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}> {/* Use the new font variable class */}
+    <html lang="en" className={inter.variable}>
       <body className="font-sans antialiased flex flex-col min-h-screen bg-background">
         <Navbar />
         <main className="flex-grow container mx-auto px-4 py-8 sm:px-6 lg:px-8">
